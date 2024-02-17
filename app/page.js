@@ -12,11 +12,15 @@ const LuckiestGuy = Luckiest_Guy({
 });
 export default function Home() {
   return (
-    <div className="h-screen overflow-hidden justify-center w-full relative">
-      <Image className="bg-cover" src={bgImage} alt="bg image" />
+    <div className="h-screen lg:overflow-hidden justify-center w-full relative">
+      <Image
+        className="lg:bg-cover object-cover h-full w-full"
+        src={bgImage}
+        alt="bg image"
+      />
       <div className=" z-10 w-full top-0 absolute mt-20">
         <div className=" flex justify-center flex-col items-center ">
-          <Image src={mythic} alt="mythic" />
+          <Image className="w-80" src={mythic} alt="mythic" />
           <div className="mt-6 flex justify-center  items-center">
             <h3 className="font-bold ipbg text-green-600">
               play.mythicnation.fun
@@ -26,7 +30,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex justify-around mt-10">
+        <div className="flex flex-col max-xl:items-center lg:flex-row justify-around mt-10">
           <iframe
             src="https://discord.com/widget?id=796376180336754719&theme=dark"
             width="350"
@@ -35,7 +39,7 @@ export default function Home() {
             frameborder="0"
             sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
           ></iframe>
-          <div className="boxbg flex flex-col items-center">
+          <div className="boxbg flex flex-col items-center max-xl:mt-10">
             <Image src={featureImg} width={60} height={60} alt="feature.png" />
             <h2 className="text-3xl mb-10">Survival</h2>
             <hr />
@@ -53,7 +57,7 @@ export default function Home() {
               </button>
             </Link>
           </div>
-          <div className="boxbg flex flex-col items-center">
+          <div className="boxbg flex flex-col items-center max-xl:mt-10">
             <Image src={trophy} width={60} height={60} alt="feature.png" />
             <h2 className="text-3xl mb-10">Ranks</h2>
             <hr />
