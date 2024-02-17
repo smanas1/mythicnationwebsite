@@ -39,7 +39,7 @@ export default function Home() {
             frameborder="0"
             sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
           ></iframe>
-          <div className="boxbg flex flex-col items-center max-xl:mt-10">
+          <div className="boxbg flex flex-col items-center max-xl:mt-10 max-lg:py-8">
             <Image src={featureImg} width={60} height={60} alt="feature.png" />
             <h2 className="text-3xl mb-10">Survival</h2>
             <hr />
@@ -57,19 +57,21 @@ export default function Home() {
               </button>
             </Link>
           </div>
-          <div className="boxbg flex flex-col items-center max-xl:mt-10">
+          <div className="boxbg flex flex-col items-center max-xl:mt-10 max-lg:py-8 max-lg:mb-6">
             <Image src={trophy} width={60} height={60} alt="feature.png" />
             <h2 className="text-3xl mb-10">Ranks</h2>
             <hr />
             <h3 className="text-xl font-bold text-red-500">Conqueror</h3>
             <p className="font-bold">Duration 1 Month</p>
             <p className="font-bold">12000 Claim </p>
-            <p className="font-bold">Money 500</p>
+            <p className="font-bold">Price 200</p>
 
-            <h3 className="text-xl font-bold text-yellow-300">Emperor</h3>
+            <h3 className="text-xl font-bold text-yellow-300 max-lg:mt-5">
+              Emperor
+            </h3>
             <p className="font-bold">Duration 1 Month</p>
             <p className="font-bold">6000 Claim</p>
-            <p className="font-bold">Money 250</p>
+            <p className="font-bold">Price 100</p>
             <Link href="https://discord.com/channels/796376180336754719/955421297905639474">
               <button className="mt-10 bg-[#5865f2] rounded-md px-6 py-3 text-white">
                 Buy Now
