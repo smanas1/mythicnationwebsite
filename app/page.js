@@ -39,7 +39,7 @@ export default function Home() {
             frameborder="0"
             sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
           ></iframe>
-          <div className="boxbg flex flex-col items-center max-xl:mt-20 max-lg:py-8">
+          <div className="boxbg flex flex-col items-center max-xl:mt-20 ">
             <Image src={featureImg} width={60} height={60} alt="feature.png" />
             <h2 className="text-3xl mb-10">Survival</h2>
             <hr />
@@ -57,7 +57,7 @@ export default function Home() {
               </button>
             </Link>
           </div>
-          <div className="boxbg flex flex-col items-center max-xl:mt-10 max-lg:py-8 max-lg:mb-6">
+          <div className="boxbg flex flex-col items-center max-xl:mt-10  max-lg:mb-6 ">
             <Image src={trophy} width={60} height={60} alt="feature.png" />
             <h2 className="text-3xl mb-10">Ranks</h2>
             <hr />
