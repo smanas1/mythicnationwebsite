@@ -39,6 +39,7 @@ export default function Home() {
             <Image src={featureImg} width={60} height={60} alt="feature.png" />
             <h2 className="text-3xl mb-10">Survival</h2>
             <hr />
+            <p className="font-bold capitalize">java and bedrock</p>
             <p className="font-bold">Ranks</p>
             <p className="font-bold">Claims</p>
             <p className="font-bold">Clan</p>
