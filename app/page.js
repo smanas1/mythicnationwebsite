@@ -5,6 +5,7 @@ import trophy from "../public/img/trophy.png";
 import mythic from "../public/img/Group 2.png";
 import featureImg from "../public/img/feature.png";
 import Copy from "@/components/Copy";
+import Link from "next/link";
 const LuckiestGuy = Luckiest_Guy({
   weight: "400",
   subsets: ["latin"],
@@ -38,29 +39,37 @@ export default function Home() {
             <Image src={featureImg} width={60} height={60} alt="feature.png" />
             <h2 className="text-3xl mb-10">Survival</h2>
             <hr />
-            <p>Ranks</p>
-            <p>Claims</p>
-            <p>Clan</p>
-            <p>Clan Ware</p>
-            <p>Economy</p>
-            <p>Kits</p>
-            <p>Vote Reward</p>
-            <h3 className="capitalize mt-10">For More Info join our discord</h3>
+            <p className="font-bold">Ranks</p>
+            <p className="font-bold">Claims</p>
+            <p className="font-bold">Clan</p>
+            <p className="font-bold">Clan Ware</p>
+            <p className="font-bold">Economy</p>
+            <p className="font-bold">Kits</p>
+            <p className="font-bold">Vote Reward</p>
+            <Link href="https://discord.com/channels/796376180336754719/956120142331387964">
+              <button className="mt-10 bg-[#5865f2] rounded-md px-6 py-3 text-white">
+                Start Now
+              </button>
+            </Link>
           </div>
           <div className="boxbg flex flex-col items-center">
             <Image src={trophy} width={60} height={60} alt="feature.png" />
             <h2 className="text-3xl mb-10">Ranks</h2>
             <hr />
             <h3 className="text-xl font-bold text-red-500">Conqueror</h3>
-            <p>Duration 1 Month</p>
-            <p>12000 Claim </p>
-            <p>Money 500</p>
+            <p className="font-bold">Duration 1 Month</p>
+            <p className="font-bold">12000 Claim </p>
+            <p className="font-bold">Money 500</p>
 
             <h3 className="text-xl font-bold text-yellow-300">Emperor</h3>
-            <p>Duration 1 Month</p>
-            <p>6000 Claim</p>
-            <p>Money 250</p>
-            <h3 className="capitalize mt-10">For More Info join our discord</h3>
+            <p className="font-bold">Duration 1 Month</p>
+            <p className="font-bold">6000 Claim</p>
+            <p className="font-bold">Money 250</p>
+            <Link href="https://discord.com/channels/796376180336754719/955421297905639474">
+              <button className="mt-10 bg-[#5865f2] rounded-md px-6 py-3 text-white">
+                Buy Now
+              </button>
+            </Link>
           </div>
         </div>
       </div>
