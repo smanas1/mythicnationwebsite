@@ -30,7 +30,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col max-xl:items-center lg:flex-row justify-around mt-10">
+        <div className="flex flex-col items-center lg:flex-row justify-around mt-10">
           <iframe
             src="https://discord.com/widget?id=796376180336754719&theme=dark"
             width="350"
